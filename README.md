@@ -9,8 +9,11 @@ Assignment:
 
 
 I have created 2 REST APIs for this
+
 first to generate and get captcha image
+
 second to verify captcha string
+
 ** I have used session to map captcha image to captcha string
 
 1.To generate and get Captcha
@@ -24,6 +27,9 @@ POST Request: http://localhost:8080/verifyCaptcha
 this will verify captcha string and return the result
 
 Request Body for POST Request:
+
 {
-  "clientString":""
+
+"clientString":""
+
 }
